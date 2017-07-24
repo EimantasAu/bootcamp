@@ -1,6 +1,1 @@
-vvvvvvvvvvv
-dddddddddddd
-Bandom Gi
-ssssssssssss
-
-aaaaaaaaaaaaaaaaaaaaa
+Eimanto Bootcamp projektas
