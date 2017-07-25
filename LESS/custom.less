@@ -1,14 +1,13 @@
 /* Custom CSS */
 /* Variables */
 
-
+@font-1: montserrat;
 
 
 /* Header section */
 
 .header {
-
-	height: 600px;
+	height: 580px;
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-position: center;
@@ -19,7 +18,42 @@
 	
 
 		.header-body {
-			
+				text-align: center;
+				margin: auto;
+				margin-top: 115px;
+
+
+			h2 {
+				font-family: @font-1;
+				font-size: 2em;
+				font-weight: 400;
+				color: #fff;
+				padding-bottom: 30px;
+
+			}
+
+			p {
+				font-family: @font-1;
+				font-size: 12px;
+				color: #b8b8bd;
+				max-width: 490px;
+				width: 100%;
+				margin: 0 auto;
+				line-height: 200%;
+				padding-bottom: 50px;
+			}
+
+			a {
+				font-family: @font-1;
+				color: #fff;
+				text-decoration: none;
+				padding: 10px 30px;
+				background-color: #fb6470;
+				border-radius: 5px;
+
+
+			}
+
 
 		}
 	}
@@ -64,7 +98,7 @@
 }
 
 #main {
-    transition: margin-left .5s;
+    transition: margin-left .3s;
     padding: 16px;
 }
 
@@ -81,7 +115,6 @@
   .user-info {
     position: absolute;
     left: 30px;
-    bottom: 15px;
   }
   
   img {
