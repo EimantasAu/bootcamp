@@ -1,9 +1,11 @@
 function openNav() {
     document.getElementById("mySidenav").style.width = "275px";
-    document.getElementById("main").style.marginLeft = "275px";
+    document.getElementById("container").style.marginLeft = "275px";
+    document.getElementById("header").style.backgroundPosition = "275px center";
 }
 
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
+    document.getElementById("container").style.marginLeft= "0";
+    document.getElementById("header").style.backgroundPosition = "center";
 }
